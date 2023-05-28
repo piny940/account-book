@@ -60,9 +60,9 @@ Rails.application.configure do
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
 
-  # Use a real queuing account_book_backend for Active Job (and separate queues per environment).
+  # Use a real queuing backend_account_book for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "account_book_backend_production"
+  # config.active_job.queue_name_prefix = "backend_account_book_production"
 
   config.action_mailer.perform_caching = false
 

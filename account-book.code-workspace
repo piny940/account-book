@@ -4,7 +4,7 @@
       "path": "."
     },
     {
-      "path": "account_book_backend"
+      "path": "backend_account_book"
     }
   ],
   "settings": {}
