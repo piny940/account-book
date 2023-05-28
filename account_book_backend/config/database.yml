@@ -23,13 +23,13 @@ default: &default
 
 development:
   <<: *default
-  database: backend_development
+  database: account_book_backend_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: backend
+  #username: account_book_backend
 
   # The password associated with the postgres role (username).
   #password:
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: backend_test
+  database: account_book_backend_test
   username: <%= ENV.fetch('TEST_PG_USER', nil) %>
   password: <%= ENV.fetch('TEST_PG_PASSWORD', nil) %>
   host: <%= ENV.fetch('TEST_PG_HOST', nil) %>
@@ -84,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: backend_production
-  username: backend
-  password: <%= ENV["backend_DATABASE_PASSWORD"] %>
+  database: account_book_backend_production
+  username: account_book_backend
+  password: <%= ENV["account_book_backend_DATABASE_PASSWORD"] %>

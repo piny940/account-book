@@ -2,7 +2,7 @@
 
 [English version](https://github.com/piny940/rails-template/blob/main/README.en.md)
 
-API backendとしてRailsを使う場合のRailsのテンプレートです。
+API account_book_backendとしてRailsを使う場合のRailsのテンプレートです。
 
 ## 使用技術
 

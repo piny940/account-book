@@ -2,7 +2,7 @@
 
 [日本語版README](https://github.com/piny940/rails-template/blob/main/README.md)
 
-This is a Rails template for using Rails as an API backend.
+This is a Rails template for using Rails as an API account_book_backend.
 
 ## Technologies used
 
