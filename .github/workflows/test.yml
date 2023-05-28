@@ -4,8 +4,7 @@ jobs:
   backend:
     runs-on: ubuntu-latest
     defaults:
-      run:
-        working-directory: ./backend_account_book
+      working-directory: ./backend_account_book
 
     services:
       postgres:
